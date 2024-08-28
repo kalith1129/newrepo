@@ -1,5 +1,5 @@
 def add(a,b):
-    return a+b
+  return (a+b)/2
 
 res = add(10,20)
 print(res)
@@ -9,3 +9,4 @@ def facto(x):
         return 1
     else:
         return x * facto(x-1)
+
